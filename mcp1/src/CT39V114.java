@@ -14,20 +14,19 @@ public class CT39V114 {
   // Elle renvoie la somme de la sous-sequence non vide maximum de t.
 	
 	public static long maxSum(int[] t) {
-		  int sum = Integer.MIN_VALUE;
-		  int currentSum = 0;
-		  for (int i =0; i < t.length; i++){
-			  currentSum += t[i];
-			  if (currentSum > sum){
-				  sum = currentSum;
-			  }else if(t[i]>sum){
-				  sum = t[i];
-				  currentSum = sum;
-			  }
-		  }
-
+		int sum = Integer.MIN_VALUE;
+		int currentSum = 0;
+		for (int i =0; i < t.length; i++){
+			currentSum += t[i];
+			if (currentSum > sum){
+				sum = currentSum;
+			}else if(t[i]>sum){
+				sum = t[i];
+				currentSum = sum;
+			}
+		}
 		return sum;
-	  }
+	}
   
   //***********************************************************************************
   //Expliquez la notion de "programme correct"
@@ -39,7 +38,7 @@ public class CT39V114 {
   //Expliquez comment vous avez d√©velopp√© ce programme
 	
 	//analyser la situation
-	//exposer le problème sur papier
+	//exposer le problËème sur papier
 	//identifier les deux versions demandées
 	
   
