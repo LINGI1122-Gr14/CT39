@@ -1,16 +1,16 @@
-//Ce fichier est encodé en UTF8.
+Ôªø//Ce fichier est encod√© en UTF8.
 
 // VAESSEN Tanguy
-// LEPINOIS Loïc
-// LAMBIN Grégoire
+// LEPINOIS Lo√Øc
+// LAMBIN Gr√©goire
 // HAUET Alexandre
 
 public class CT39V214 {
   
-  // Le paramètre t n'est pas null. 
-  // De plus, il représente un vecteur de n entiers relatifs.
+  // Le param√®tre t n'est pas null. 
+  // De plus, il repr√©sente un vecteur de n entiers relatifs.
   
-  // Cette méthode ne modifie pas les éléments du tableau t.
+  // Cette m√©thode ne modifie pas les √©l√©ments du tableau t.
   // Elle renvoie la somme de la sous-sequence maximum de t.
 	
 	public static long maxSum(int[] t) {
@@ -36,20 +36,20 @@ public class CT39V214 {
   //Expliquez la notion de "programme correct"
 	
 	// qui se termine
-	// qui respecte les préconditions
+	// qui respecte les pr√©conditions
 
   //***********************************************************************************
-  //Expliquez comment vous avez développé ce programme
+  //Expliquez comment vous avez d√©velopp√© ce programme
 	
 	//analyser la situation
-	//exposer le problËème sur papier
-	//identifier les deux versions demandées
+	//exposer le probl√®me sur papier
+	//identifier les deux versions demand√©es
 	
   
   //***********************************************************************************
-  //Expliquez pourquoi vous pensez que votre méthode est correcte
+  //Expliquez pourquoi vous pensez que votre m√©thode est correcte
 	
-	//on a testé plusieurs cas sur papier
-	//elle respecte la complexité demandée
+	//on a test√© plusieurs cas sur papier
+	//elle respecte la complexit√© demand√©e
 	//
 }
