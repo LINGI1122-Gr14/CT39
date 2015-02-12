@@ -1,4 +1,4 @@
-﻿//Ce fichier est encodé en UTF8.
+//Ce fichier est encodé en UTF8.
 
 // VAESSEN Tanguy
 // LEPINOIS Loïc
